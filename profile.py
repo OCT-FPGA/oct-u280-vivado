@@ -1,4 +1,4 @@
-"""OCT Alveo U280 profile with post-boot script
+"""OCT Alveo U280 profile with post-boot script (supports custom (Vivado) workflow)
 """
 
 # Import the Portal object.
