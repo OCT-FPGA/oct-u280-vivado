@@ -73,13 +73,7 @@ pc.defineParameter("tempFileSystemMount", "Temporary Filesystem Mount Point",
                    "is finicky.")  
                    
 # Retrieve the values the user specifies during instantiation.
-params = pc.bindParameters()        
-
-# Check parameter validity.
-
-if params.nodeCount < 1 or params.nodeCount > 8:
-    pc.reportError(portal.ParameterError("The number of FPGA nodes should be greater than 1 and less than 8.", ["nodeCount"]))
-    pass
+params = pc.bindParameters()       
   
 pc.verifyParameters()
 
