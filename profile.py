@@ -84,7 +84,7 @@ node.disk_image = params.osImage
 # Assign to the node hosting the FPGA.
 # node.hardware_type = "fpga-alveo"
 node.component_manager_id = "urn:publicid:IDN+cloudlab.umass.edu+authority+cm"
-host.component_id = params.node
+node.component_id = params.node
     
 # Optional Blockstore
 if params.tempFileSystemSize > 0 or params.tempFileSystemMax:
